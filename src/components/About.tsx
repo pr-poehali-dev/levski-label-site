@@ -32,22 +32,12 @@ const About = () => {
                 Музыкальный лейбл будущего
               </div>
             </div>
-              </Card>
-              <Card className="bg-slate-700 border-slate-600">
-                <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold text-purple-400 mb-2">
-                    20+
-                  </div>
-                  <div className="text-gray-300">Проектов</div>
-                </CardContent>
-              </Card>
-            </div>
           </div>
 
           <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop&crop=center" 
-              alt="Студия звукозаписи" 
+            <img
+              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop&crop=center"
+              alt="Студия звукозаписи"
               className="w-full h-96 object-cover rounded-lg"
             />
             <div className="absolute inset-0 bg-gradient-to-br from-purple-600/30 to-slate-900/50 rounded-lg"></div>
