@@ -7,7 +7,7 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="animate-fade-in">
-          <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 font-montserrat tracking-wider">
+          <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 font-playfair italic tracking-wider">
             ЛЕВСКИ
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-purple-600 mx-auto mb-8"></div>

@@ -27,14 +27,11 @@ const About = () => {
               талантов.
             </p>
 
-            <div className="grid grid-cols-2 gap-6 mt-8">
-              <Card className="bg-slate-700 border-slate-600">
-                <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold text-purple-400 mb-2">
-                    5+
-                  </div>
-                  <div className="text-gray-300">Лет опыта</div>
-                </CardContent>
+            <div className="flex items-center justify-center mt-8">
+              <div className="text-4xl font-bold text-purple-400">
+                Музыкальный лейбл будущего
+              </div>
+            </div>
               </Card>
               <Card className="bg-slate-700 border-slate-600">
                 <CardContent className="p-6 text-center">
@@ -48,10 +45,12 @@ const About = () => {
           </div>
 
           <div className="relative">
-            <div className="w-full h-96 bg-gradient-to-br from-purple-600 to-purple-800 rounded-lg flex items-center justify-center">
-              <div className="text-6xl">🎵</div>
-            </div>
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 to-transparent rounded-lg"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop&crop=center" 
+              alt="Студия звукозаписи" 
+              className="w-full h-96 object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-600/30 to-slate-900/50 rounded-lg"></div>
           </div>
         </div>
       </div>
